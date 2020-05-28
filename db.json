@@ -24,7 +24,6 @@
               "imageUrl": "https://nagel/image.jpg",
               "description": "\"Ein tolles Teil vom VALEO als günstige Alternative\": findet unser Redakteur Max Mustermann",
               "id": 846732,
-              // im context von iam, natuerlich die iam nummer und keine oem nummer mehr, das referenzteil gebe ich nicht mehr mit
               "partNumber": "123456",
               "manufacturer": "VALEO",
               "configuration": "Standard",
@@ -58,7 +57,6 @@
       ],
       "workSteps": [
         {
-          // arbeitsschritte können vom redakteur entfernt werden, mehr haben wir bisher nicht bedacht
           "description": "Luftfilter erneuern",
           "amount": "",
           "order": 1
@@ -81,7 +79,6 @@
               "imageUrl": "https://nagel/image.jpg",
               "description": "\"Ein tolles Teil vom VALEO als günstige Alternative\": findet unser Redakteur Max Mustermann",
               "id": 846732,
-              // im context von iam, natuerlich die iam nummer und keine oem nummer mehr, das referenzteil gebe ich nicht mehr mit
               "partNumber": "123456",
               "manufacturer": "VALEO",
               "configuration": "Standard",
@@ -115,7 +112,6 @@
       ],
       "workSteps": [
         {
-          // arbeitsschritte können vom redakteur entfernt werden, mehr haben wir bisher nicht bedacht
           "description": "Luftfilter erneuern",
           "amount": "",
           "order": 1
@@ -138,7 +134,6 @@
               "imageUrl": "https://nagel/image.jpg",
               "description": "\"Ein tolles Teil vom VALEO als günstige Alternative\": findet unser Redakteur Max Mustermann",
               "id": 846732,
-              // im context von iam, natuerlich die iam nummer und keine oem nummer mehr, das referenzteil gebe ich nicht mehr mit
               "partNumber": "123456",
               "manufacturer": "VALEO",
               "configuration": "Standard",
@@ -172,7 +167,6 @@
       ],
       "workSteps": [
         {
-          // arbeitsschritte können vom redakteur entfernt werden, mehr haben wir bisher nicht bedacht
           "description": "Luftfilter erneuern",
           "amount": "",
           "order": 1
@@ -180,186 +174,5 @@
       ]
     }
   }
-},
-{
-  "id": "PRD-8880238",
-  "remark": "Standard",
-  "exclusiveServicePositions": null,
-  "optionalExclusivePositions": null,
-  "workId": -7880238,
-  "workPositionNumber": "24241973",
-  "priceInEuro": 47.11,
-  "variants": {
-    "recommended": {
-      "name": "Luftfilter",
-      "description": "10,00 AW Luftfilter erneuern",
-      "action": "erneuern",
-      "performingInterval": "alle 90.000 km",
-      "workDuration": 10,
-      "partGroups": [
-        {
-          "category": "Luftfilter",
-          "parts": [
-            {
-              "partType": "iam",
-              "price": 20.5,
-              "imageUrl": "https://nagel/image.jpg",
-              "description": "\"Ein tolles Teil vom VALEO als günstige Alternative\": findet unser Redakteur Max Mustermann",
-              "id": 846732,
-              // im context von iam, natuerlich die iam nummer und keine oem nummer mehr, das referenzteil gebe ich nicht mehr mit
-              "partNumber": "123456",
-              "manufacturer": "VALEO",
-              "configuration": "Standard",
-              "type": "SparePart",
-              "amounts": [
-                {
-                  "amount": 1,
-                  "unit": ""
-                }
-              ]
-            },
-            {
-              "partType": "oem",
-              "price": 20.5,
-              "imageUrl": "https://nagel/image.jpg",
-              "description": "\"Ein tolles Teil vom Hersteller\": findet unser Redakteur Max Mustermann",
-              "id": 846732,
-              "partNumber": "1F0129620",
-              "manufacturer": "AUDI",
-              "configuration": "Standard",
-              "type": "SparePart",
-              "amounts": [
-                {
-                  "amount": 1,
-                  "unit": ""
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "workSteps": [
-        {
-          // arbeitsschritte können vom redakteur entfernt werden, mehr haben wir bisher nicht bedacht
-          "description": "Luftfilter erneuern",
-          "amount": "",
-          "order": 1
-        }
-      ]
-    },
-    "quality": {
-      "name": "Luftfilter",
-      "description": "10,00 AW Luftfilter erneuern",
-      "action": "erneuern",
-      "performingInterval": "alle 90.000 km",
-      "workDuration": 10,
-      "partGroups": [
-        {
-          "category": "Luftfilter",
-          "parts": [
-            {
-              "partType": "iam",
-              "price": 20.5,
-              "imageUrl": "https://nagel/image.jpg",
-              "description": "\"Ein tolles Teil vom VALEO als günstige Alternative\": findet unser Redakteur Max Mustermann",
-              "id": 846732,
-              // im context von iam, natuerlich die iam nummer und keine oem nummer mehr, das referenzteil gebe ich nicht mehr mit
-              "partNumber": "123456",
-              "manufacturer": "VALEO",
-              "configuration": "Standard",
-              "type": "SparePart",
-              "amounts": [
-                {
-                  "amount": 1,
-                  "unit": ""
-                }
-              ]
-            },
-            {
-              "partType": "oem",
-              "price": 20.5,
-              "imageUrl": "https://nagel/image.jpg",
-              "description": "\"Ein tolles Teil vom Hersteller\": findet unser Redakteur Max Mustermann",
-              "id": 846732,
-              "partNumber": "1F0129620",
-              "manufacturer": "AUDI",
-              "configuration": "Standard",
-              "type": "SparePart",
-              "amounts": [
-                {
-                  "amount": 1,
-                  "unit": ""
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "workSteps": [
-        {
-          // arbeitsschritte können vom redakteur entfernt werden, mehr haben wir bisher nicht bedacht
-          "description": "Luftfilter erneuern",
-          "amount": "",
-          "order": 1
-        }
-      ]
-    },
-    "economy": {
-      "name": "Luftfilter",
-      "description": "10,00 AW Luftfilter erneuern",
-      "action": "erneuern",
-      "performingInterval": "alle 90.000 km",
-      "workDuration": 10,
-      "partGroups": [
-        {
-          "category": "Luftfilter",
-          "parts": [
-            {
-              "partType": "iam",
-              "price": 20.5,
-              "imageUrl": "https://nagel/image.jpg",
-              "description": "\"Ein tolles Teil vom VALEO als günstige Alternative\": findet unser Redakteur Max Mustermann",
-              "id": 846732,
-              // im context von iam, natuerlich die iam nummer und keine oem nummer mehr, das referenzteil gebe ich nicht mehr mit
-              "partNumber": "123456",
-              "manufacturer": "VALEO",
-              "configuration": "Standard",
-              "type": "SparePart",
-              "amounts": [
-                {
-                  "amount": 1,
-                  "unit": ""
-                }
-              ]
-            },
-            {
-              "partType": "oem",
-              "price": 20.5,
-              "imageUrl": "https://nagel/image.jpg",
-              "description": "\"Ein tolles Teil vom Hersteller\": findet unser Redakteur Max Mustermann",
-              "id": 846732,
-              "partNumber": "1F0129620",
-              "manufacturer": "AUDI",
-              "configuration": "Standard",
-              "type": "SparePart",
-              "amounts": [
-                {
-                  "amount": 1,
-                  "unit": ""
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "workSteps": [
-        {
-          // arbeitsschritte können vom redakteur entfernt werden, mehr haben wir bisher nicht bedacht
-          "description": "Luftfilter erneuern",
-          "amount": "",
-          "order": 1
-        }
-      ]
-    }
-  }
-}]
+}
+]
